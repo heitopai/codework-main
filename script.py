@@ -74,14 +74,14 @@ fixed_params = [
     # "--topologies", 'geom', 
     "--seed", "42",
     "--output-dir", output_dir,
-]
-
-
-dcdopdgd_params = [
     "--c", "0.1",
     "--T", "800",
     "--m", "18",
     "--rho", "1.5",
+]
+
+
+dcdopdgd_params = [
     # "--compressor", 'rand',
     "--compress-rates", "0.10", "0.30",
     "--combine-rates",
